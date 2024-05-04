@@ -1,0 +1,184 @@
+?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hmp_bck"
+    android:padding="16dp">
+    <!-- Box 1 -->
+    <RelativeLayout
+        android:id="@+id/box1"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_below="@+id/textViewAboutUs"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/border_background"
+        android:padding="18dp">
+        <!-- Student Name -->
+        <TextView
+            android:id="@+id/textViewStudentName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Govind Mudaliar"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <!-- Profession -->
+        <TextView
+            android:id="@+id/textViewProfession1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewStudentName1"
+            android:layout_marginTop="8dp"
+            android:text="Profession: Developer And Designer"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+        <!-- Other Details -->
+        <TextView
+            android:id="@+id/textViewOtherDetails1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewProfession1"
+            android:layout_marginTop="8dp"
+            android:text="IU2141220070"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+        <!-- Instagram Logo -->
+        <ImageView
+            android:id="@+id/instagramLogo1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="0dp"
+            android:clickable="true"
+            android:onClick="openInstagramPage"
+            android:src="@drawable/instagram_logo" />
+    </RelativeLayout>
+    <!-- Box 2 -->
+    <RelativeLayout
+        android:id="@+id/box2"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_below="@id/box1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/border_background"
+        android:padding="16dp">
+        <!-- Student Name -->
+        <TextView
+            android:id="@+id/textViewStudentName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Om More"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <!-- Profession -->
+        <TextView
+            android:id="@+id/textViewProfession2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewStudentName2"
+            android:layout_marginTop="8dp"
+            android:text="Profession: Assistant Designer"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+        <!-- Other Details -->
+        <TextView
+            android:id="@+id/textViewOtherDetails2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewProfession2"
+            android:layout_marginTop="8dp"
+            android:text="IU2141220069"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+        <!-- Instagram Logo -->
+        <ImageView
+            android:id="@+id/instagramLogo2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="0dp"
+            android:clickable="true"
+            android:onClick="openInstagramPage"
+            android:src="@drawable/instagram_logo"
+    </RelativeLayout>
+    <!-- Box 3 -->
+    <RelativeLayout
+        android:id="@+id/box3"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_below="@id/box2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/border_background"
+        android:padding="16dp">
+        <!-- Student Name -->
+        <TextView
+            android:id="@+id/textViewStudentName3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BakarAli Nandoliya"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <!-- Profession -->
+        <TextView
+            android:id="@+id/textViewProfession3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewStudentName3"
+            android:layout_marginTop="8dp"
+            android:text="Profession: Tester"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+        <!-- Other Details -->
+        <TextView
+            android:id="@+id/textViewOtherDetails3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewProfession3"
+            android:layout_marginTop="8dp"
+            android:text="IU2141220072"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+        <!-- Instagram Logo -->
+        <ImageView
+            android:id="@+id/instagramLogo3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="0dp"
+            android:clickable="true"
+            android:onClick="openInstagramPage"
+            android:src="@drawable/instagram_logo" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/textViewAboutUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="54dp"
+        android:text="ABOUT US"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</RelativeLayout>

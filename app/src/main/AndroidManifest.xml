@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/logo"
+        android:label="Indus Store"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IndusStore"
+        tools:targetApi="31">
+        <activity
+            android:name=".Splash"
+            android:exported="false" />
+        <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
+            android:name=".printer"
+            android:exported="false" />
+        <activity
+            android:name=".assigment"
+            android:exported="false" />
+        <activity
+            android:name=".mad"
+            android:exported="false" />
+        <activity
+            android:name=".geometry"
+            android:exported="false" />
+        <activity
+            android:name=".files"
+            android:exported="false" />
+        <activity
+            android:name=".electrical"
+            android:exported="false" />
+        <activity
+            android:name=".Drafter"
+            android:exported="false" />
+        <activity
+            android:name=".cyber"
+            android:exported="false" />
+        <activity
+            android:name=".cprogram"
+            android:exported="false" />
+        <activity
+            android:name=".Cloud"
+            android:exported="false" />
+        <activity
+            android:name=".Clock"
+            android:exported="false" />
+        <activity
+            android:name=".civil"
+            android:exported="false" />
+        <activity
+            android:name=".Calculator"
+            android:exported="false" />
+        <activity
+            android:name=".Calculas"
+            android:exported="false" />
+        <activity
+            android:name=".Help"
+            android:exported="false" />
+        <activity
+            android:name=".Projects"
+            android:exported="false" />
+        <activity
+            android:name=".Book"
+            android:exported="false" />
+        <activity
+            android:name=".stationary"
+            android:exported="false" />
+        <activity
+            android:name=".Homepage"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TestLogin"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
